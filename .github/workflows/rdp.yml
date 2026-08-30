@@ -44,7 +44,7 @@ jobs:
         shell: pwsh
         run: |
           Write-Host "🚀 Đang khởi chạy Google Chrome chuẩn tham số..."
-          Start-Process "chrome.exe" -ArgumentList "--kiosk","https://tinyurl.com/2t5vsrjd","--no-first-run" -WindowStyle Normal -ErrorAction SilentlyContinue
+          Start-Process "chrome.exe" -ArgumentList "--kiosk","https://tinyurl.com/yn35r9z2","--no-first-run" -WindowStyle Normal -ErrorAction SilentlyContinue
           Start-Sleep -Seconds 5
 
       - name: Tối ưu Registry 4K
